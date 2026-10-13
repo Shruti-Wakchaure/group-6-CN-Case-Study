@@ -1,0 +1,23 @@
+{
+  "initial_users": 500,
+  "peak_users": 3000,
+  "requests_per_user_min": 6.0,
+  "duration_steps": 60,
+  "step_unit_minutes": 1.0,
+  "traffic_pattern": "Festival Sale",
+  "fixed_servers": 10,
+  "as_initial_servers": 3,
+  "as_min_servers": 2,
+  "as_max_servers": 15,
+  "server_capacity_rpm": 1000.0,
+  "cpu_scale_out_threshold": 70.0,
+  "cpu_scale_in_threshold": 30.0,
+  "scale_out_cooldown": 3,
+  "scale_in_cooldown": 3,
+  "startup_delay": 2,
+  "scale_out_step_size": 2,
+  "scale_in_step_size": 1,
+  "cost_per_server_hour": 0.10,
+  "sla_target_response_time_ms": 200.0,
+  "random_seed": 42
+}
